@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}                                         
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section design start */
+    /* navbar section design start */
+    /* navbar section design end */
+
+    /* banner section design start */
+    /* banner section design end */
+/*header section design end */
+
+/* main section design start */
+    /* our gammer section design start .its option part*/
+    /* our gammer section design end */
+
+    /* video-games section design start/it's a bonus part */
+    /* video-games section design end */
+
+    /* play instant section design start.*/
+    /* play instant section design end */
+
+    /* online games section design start .its optional part*/
+    /* online games section design end */
+
+    /* careers section design start . it's optional part */
+    /* careers section design end */
+
+    /* games icon section design start.*/
+    /* games icon section design end */
+/* main section design end */
+
+/* footer section design start */
+/* footer section design end */
+
+/* Responsive design for mobile screen */
+@media screen and (max-width:576px) {
+/* responsive header section design start */
+    /* responsive navbar section design start */
+    /* responsive navbar section design end */
+
+    /* responsive banner section design start */
+    /* responsive banner section design end */
+/* responsive header section design end */
+
+/* responsive main section design start */
+        /* responsive our gammer section design start .its option part*/
+        /* responsive our gammer section design end */
+
+        /* responsive video-games section design start/it's a bonus part */
+        /* responsive video-games section design end */
+
+        /* responsive play instant section design start.*/
+        /* responsive play instant section design end */
+
+        /* responsive online games section design start .its optional part*/
+        /* responsive online games section design end */
+
+        /* responsive careers section design start . it's optional part */
+        /* responsive careers section design end */
+
+        /* responsive games icon section design start.*/
+        /* responsive games icon section design end */
+/* responsive main section design end */
+
+/* responsive footer section design start */
+/* responsive footer section design end */
+}
+
+/* responsive design for tablet/mini tab/ */
+ @media screen and (max-width:576px) { 
+    /* responsive header section design start */
+        /* responsive navbar section design start */
+        /* responsive navbar section design end */
+    
+        /* responsive banner section design start */
+        /* responsive banner section design end */
+    /* responsive header section design end */
+    
+    /* responsive main section design start */
+            /* responsive our gammer section design start .its option part*/
+            /* responsive our gammer section design end */
+    
+            /* responsive video-games section design start/it's a bonus part */
+            /* responsive video-games section design end */
+    
+            /* responsive play instant section design start.*/
+            /* responsive play instant section design end */
+    
+            /* responsive online games section design start .its optional part*/
+            /* responsive online games section design end */
+    
+            /* responsive careers section design start . it's optional part */
+            /* responsive careers section design end */
+    
+            /* responsive games icon section design start.*/
+            /* responsive games icon section design end */
+    /* responsive main section design end */
+    
+    /* responsive footer section design start */
+    /* responsive footer section design end */
+    }
