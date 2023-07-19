@@ -9,10 +9,9 @@ body{
     /* navbar section design start */
      .navbar{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        padding: 20px;
-        background-color: #FFF;
+        padding: 20px 100px;
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
      }
      .logo{
@@ -60,30 +59,316 @@ body{
     /* navbar section design end */
 
     /* banner section design start */
+ 
+    .banner{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 0px 100px;
+
+         background-image: url(./images/Group\ 14.png);
+         background-position:left;
+         background-repeat: no-repeat;
+         background-size: contain;
+    }
+
+    .banner-title{
+        color: #0B0223;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .goat-text{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 80px;
+        font-weight: 800;
+    }
+    .banner-information{
+        margin: 25px 0px;
+    }
+    .banner-information p{
+        color: #534C64;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 0.9cm;
+    }
+    .sign-in-btn,.rogue-btn{
+        padding: 20px 45px;
+        border: none;
+        border-radius: 40px;
+        background-color: #FF42A5;
+        color: #FFF;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .rogue-btn{
+        background-color: #4EC5F7;
+    }
+    .fa-circle-play, .fa-download{
+        color: #FF42A5;
+        margin-right: 10px;
+    }
+    .fa-user-group{
+        margin-right: 10px;
+    }
     /* banner section design end */
 /*header section design end */
 
 /* main section design start */
+  main{
+    width: 80%;
+    margin: 0 auto;
+  }
     /* our gammer section design start .its optional part*/
     /* our gammer section design end */
 
     /* video-games section design start/it's a bonus part */
+    .online-video-games{
+        margin: 50px 0px;
+    }
+    .video-games-heading{
+        text-align: center;
+    }
+    .video-games-heading h1{
+        color: #0B0223;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .video-games-heading span{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .video-games-heading p{
+        color: #534C64;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+   .bg-design{
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+   }
+   .games-image-bg{
+    background-image:url(./images/Rectangle\ 4.png);
+   }
+   .games-image-bg-2{
+    background-image: url(./images/Rectangle\ 5.png);
+   }
+   .games-image-bg-3{
+    background-image: url(./images/Rectangle\ 6.png);
+   }
+   .games-image-bg-4{
+    background-image: url(./images/Rectangle\ 7.png);
+   }
+
+   .hide{
+    display: none;
+   }
+   #circle-icon{
+       font-size: 40px;
+       color: #FFF;
+   }
+   .games-image-bg:hover{
+      background-image:  linear-gradient(rgba(0, 0, 0, 0.629),rgba(0, 0, 0, 0.573)),url(./images/Rectangle\ 4.png);  
+      border: 3px solid #F948B2;
+      margin: -3px;
+    }
+    .games-image-bg-2:hover{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.629),rgba(0, 0, 0, 0.573)),url(./images/Rectangle\ 5.png);  
+        border: 3px solid #F948B2; 
+        margin: -3px;
+    }
+
+      .games-image-bg-3:hover{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.629),rgba(0, 0, 0, 0.573)),url(./images/Rectangle\ 6.png);  
+        border: 3px solid #F948B2;
+        margin: -3px;
+    }
+      .games-image-bg-4:hover{
+          background-image:  linear-gradient(rgba(0, 0, 0, 0.629),rgba(0, 0, 0, 0.573)),url(./images/Rectangle\ 7.png);  
+          border: 3px solid #F948B2;
+          margin: -3px;
+        }
+
+    .games-image-bg:hover .hide,
+    .games-image-bg-2:hover .hide,
+    .games-image-bg-3:hover .hide,
+    .games-image-bg-4:hover .hide{
+        display: block;
+    }
+  
+    .video-games{
+        display:flex;
+        gap: 20px;
+        justify-content:center;
+    }
+    .video-games-image{
+        width: 100%;
+    }
+    .video-games-image p{
+        color: #534C64;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
     /* video-games section design end */
 
     /* play instant section design start.*/
+    .play-instantly{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    } 
+
+    .instantly-image{
+        width: 40%;
+    }
+    .instantly-info{
+        text-align: right;
+        width: 45%;
+    }
+    .instantly-info span{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .instantly-info h1{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    .instantly-info p{
+        color: #534C64;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        margin-top: 20px;
+    }
+    .instantly-image{
+        position: relative;
+    }
+    .img-2{
+        position: absolute;
+        bottom:-50px;
+        left: -70px;
+    }
     /* play instant section design end */
 
     /* online games section design start .its optional part*/
+     .online-games-section{
+         margin: 150px 0px;
+
+     }
+     .online-games{
+        display: flex;
+        flex-direction: row-reverse;
+     }
+     .online-games-info{
+        text-align: left;
+     }
+      .img-3{
+         text-align: right;
+         right: -90px;
+         top: 270px;
+      }
+      .img-3 img{
+        width: 35%;
+      }
     /* online games section design end */
 
-    /* careers section design start . it's optional part */
-    /* careers section design end */
+
 
     /* games icon section design start.*/
+    .games-icon-section{
+         margin-top: 100px;
+         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+         height: 270px;
+    }
+    .games-icon{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 85%;
+        margin: 0 auto;
+        gap:20px;
+        padding-top: 50px;
+    }
+    .icon-image{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #fff;
+        padding: 5px 15px;
+        border-radius: 40px;
+    }
+    .icon-name{
+        color: #0B0223;
+        font-size:16px;
+        font-weight: 600;
+    }
+    .icon-image:hover{
+        border: 1px solid #F948B2;
+        color: #F948B2;
+        cursor: pointer;
+    }
+    .icon-name:hover{
+        color: #F948B2;
+    }
     /* games icon section design end */
 /* main section design end */
 
 /* footer section design start */
+footer{
+    height: 350px;
+    background-color: #0B0223;
+    padding: 50px 0px;
+}
+.logo-2{
+    justify-content: center;
+    padding: 20px 0px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    list-style-type:none;
+    margin: 20px 0px;
+}
+.footer-menu-2 li{
+color: rgba(255, 255, 255, 0.60);
+
+}
+.footer-menu li{
+       margin-right: 50px;
+       font-size: 18px;
+       font-weight: 600;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon img{
+    padding: 20px;
+}
+.copyright{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.60);
+  margin-top: 10px;
+}
 /* footer section design end */
 
 /* Responsive design for mobile screen */
@@ -93,15 +378,56 @@ body{
     .navbar{
       flex-direction: column;
       box-shadow: none;
+      padding: 0px 0px;
     }
     nav > ul {
         flex-direction: column;
         row-gap: 30px;
         margin-top: 40px;
     }
+    li > a{
+        margin-left: -30px;
+     }
+     .nav-btn{
+       margin-left: -30px;
+
+     }
     /* responsive navbar section design end */
 
     /* responsive banner section design start */
+      .banner{
+        flex-direction: column-reverse;
+        padding: 0px 0px;
+        margin-top: 40px;
+        width: 75%;
+        margin: 0 auto;
+        background-image: none;
+      }
+      .banner-img{
+        width: 100%;
+        margin-top: 30px;
+      }
+      .banner-title{
+        font-size: 30px;
+        margin-top: 50px;
+      }
+    
+     /* .banner-information p{
+        font-size: 15px;
+     } */
+      .goat-text{
+        font-size:55px;
+      }
+       .sign-in-btn,.rogue-btn{
+        font-size: 16px;
+        padding: 15px 30px;
+       }
+      .banner-btn{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 30px;
+      }
+
     /* responsive banner section design end */
 /* responsive header section design end */
 
@@ -110,9 +436,59 @@ body{
         /* responsive our gammer section design end */
 
         /* responsive video-games section design start/it's a bonus part */
+        .online-video-games{
+            margin: 50px 0px;
+        }
+        .video-games-heading{
+            text-align: center;
+        }
+        .video-games-heading h1{
+            font-size: 25px;
+        }
+        .video-games-heading p{
+            font-size: 10px;
+        }
+        .video-games{
+           flex-direction: column;
+        }
+        .video-games-image img{
+            width: 100%;
+        }
         /* responsive video-games section design end */
 
         /* responsive play instant section design start.*/
+        .play-instantly{
+           flex-direction: column;
+        } 
+    
+        .instantly-image{
+            width: 80%;
+        }
+        .instantly-info{
+            text-align: center;
+            width: 100%;
+        }
+        .instantly-info h1{
+            font-size: 35px;
+            line-height: 40px;
+        }
+        .instantly-info p{
+          margin: 35px 0px;
+        }
+
+        .img-2{
+            bottom:-30px;
+            left: -50px;
+            width: 70%;
+        }
+        .img-3{
+            text-align: right;
+            left:130px;
+            top: 150px;
+         }
+         .img-3 img{
+           width: 60%;
+         }
         /* responsive play instant section design end */
 
         /* responsive online games section design start .its optional part*/
@@ -122,31 +498,171 @@ body{
         /* responsive careers section design end */
 
         /* responsive games icon section design start.*/
+        .games-icon-section{
+            height: 180px;
+            background: unset;
+            margin-top: 50px;
+            height: 270px;
+       }
+    
+   .games-icon{
+       width: 100%;
+   }
+   .icon-image{
+       gap: 10px;
+       margin-top:20px;
+       width: 20%;
+   }
+   .icon img{
+     width: 20px;
+   }
+   .icon-name{
+       color: #0B0223;
+       font-size:7px;
+       font-weight: 600;
+   }
+       
         /* responsive games icon section design end */
 /* responsive main section design end */
 
 /* responsive footer section design start */
+footer{
+    height: 350px;
+    background-color: #0B0223;
+    padding: 50px 0px;
+}
+.footer-section{
+    width: 60%;
+    margin: 0 auto;
+}
+.footer-menu{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-menu li{
+       margin-right:20px;
+       font-size: 10px;
+       font-weight: 600;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon img{
+    width: 30px;
+}
+.social-icon img{
+    padding: 8px;
+}
+.copyright{
+    margin-top: 40px;
+}
 /* responsive footer section design end */
 }
 
 /* responsive design for tablet/mini tab/ */
- @media screen and (max-width:576px) { 
+ @media screen and (min-width:576px) and (max-width:992px) { 
     /* responsive header section design start */
         /* responsive navbar section design start */
+        .logo-title{
+            font-size: 30px;
+        }
+        .logo img{
+            width: 45px;
+        }
+          .navbar{
+            padding: 20px 50px;
+          }
+
+          .banner{
+            padding: 20px 50px;
+            margin: 0 auto;
+            background-position: -70%;
+          }
+          .banner-img{
+            width: 60%;
+            margin-top: 20px;
+          }
+          .banner-title{
+            font-size: 30px;
+            margin-top: 50px;
+          }
+         .banner-information p{
+            font-size: 16px;
+         }
+          .goat-text{
+            font-size:50px;
+          }
+           .sign-in-btn,.rogue-btn{
+            font-size: 12px;
+            padding: 15px 30px;
+           }
+          .banner-btn{
+            display: flex;
+            justify-content:space-between;
+            margin-bottom: 30px;
+          }
         /* responsive navbar section design end */
     
-        /* responsive banner section design start */
         /* responsive banner section design end */
     /* responsive header section design end */
     
     /* responsive main section design start */
-            /* responsive our gammer section design start .its optional part*/
-            /* responsive our gammer section design end */
     
             /* responsive video-games section design start/it's a bonus part */
+            .online-video-games{
+                margin: 50px 0px;
+            }
+            .video-games-heading{
+                text-align: center;
+            }
+            .video-games-heading h1{
+                font-size: 40px;
+            }
+            .video-games-heading p{
+                font-size: 18px;
+            }
+            .video-games{
+               display: grid;
+               grid-template-columns: repeat(2,1fr);
+            }
+            .video-games-image img{
+                width: 100%;
+            }
             /* responsive video-games section design end */
     
             /* responsive play instant section design start.*/
+            .play-instantly{
+                flex-direction: column;
+             } 
+         
+             .instantly-image{
+                 width: 80%;
+             }
+             .instantly-info{
+                 text-align: center;
+                 width: 100%;
+             }
+             .instantly-info h1{
+                 font-size: 35px;
+                 line-height: 40px;
+             }
+             .instantly-info p{
+               margin: 35px 0px;
+             }
+     
+             .img-2{
+                 bottom:-60px;
+                 left: -80px;
+                 width: 70%;
+             }
+             .img-3{
+                text-align: right;
+                left:230px;
+                top: 280px;
+             }
+             .img-3 img{
+               width: 60%;
+             }
             /* responsive play instant section design end */
     
             /* responsive online games section design start .its optional part*/
@@ -156,9 +672,40 @@ body{
             /* responsive careers section design end */
     
             /* responsive games icon section design start.*/
+            .games-icon-section{
+                height: 270px;
+           }
+
+           
+           .games-icon{
+               width: 100%;
+           }
+           .icon-image{
+               gap: 10px;
+               margin-top:10px;
+           }
+
+          
             /* responsive games icon section design end */
     /* responsive main section design end */
     
     /* responsive footer section design start */
+    .footer-section{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-menu{
+        flex-wrap: wrap;
+    }
+    .footer-menu li{
+           margin-right: 25px;
+           font-size: 20px;
+           font-weight: 600;
+    }
+    .copyright{
+      text-align: center;
+      color: rgba(255, 255, 255, 0.60);
+      margin-top: 60px;
+    }
     /* responsive footer section design end */
     }
