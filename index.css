@@ -271,7 +271,7 @@ body{
 
     /* online games section design start .its optional part*/
      .online-games-section{
-         margin: 150px 0px;
+         margin: 120px 0px;
 
      }
      .online-games{
@@ -291,13 +291,18 @@ body{
       }
     /* online games section design end */
 
-
+    /* careers section design start . it's optional part */
+    /* careers section design end */
 
     /* games icon section design start.*/
     .games-icon-section{
          margin-top: 100px;
          background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-         height: 270px;
+    }
+    .icon-alignment{
+        display: flex;
+        align-items: center;
+        height:300px;
     }
     .games-icon{
         display: flex;
@@ -306,7 +311,6 @@ body{
         width: 85%;
         margin: 0 auto;
         gap:20px;
-        padding-top: 50px;
     }
     .icon-image{
         display: flex;
@@ -325,6 +329,7 @@ body{
         border: 1px solid #F948B2;
         color: #F948B2;
         cursor: pointer;
+        margin: -1px;
     }
     .icon-name:hover{
         color: #F948B2;
@@ -333,14 +338,18 @@ body{
 /* main section design end */
 
 /* footer section design start */
+
 footer{
     height: 350px;
     background-color: #0B0223;
     padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .logo-2{
     justify-content: center;
-    padding: 20px 0px;
 }
 .footer-menu{
     display: flex;
@@ -358,16 +367,12 @@ color: rgba(255, 255, 255, 0.60);
        font-size: 18px;
        font-weight: 600;
 }
-.social-icon{
-    text-align: center;
-}
 .social-icon img{
     padding: 20px;
 }
 .copyright{
-  text-align: center;
   color: rgba(255, 255, 255, 0.60);
-  margin-top: 10px;
+  margin-top: 20px;
 }
 /* footer section design end */
 
@@ -457,6 +462,7 @@ color: rgba(255, 255, 255, 0.60);
         /* responsive video-games section design end */
 
         /* responsive play instant section design start.*/
+
         .play-instantly{
            flex-direction: column;
         } 
@@ -499,22 +505,21 @@ color: rgba(255, 255, 255, 0.60);
 
         /* responsive games icon section design start.*/
         .games-icon-section{
-            height: 180px;
             background: unset;
-            margin-top: 50px;
-            height: 270px;
        }
-    
-   .games-icon{
-       width: 100%;
-   }
+       .icon-alignment{
+        height:200px;
+    }
+    .games-icon{
+        width: 100%;
+        gap:10px;
+    }
    .icon-image{
        gap: 10px;
-       margin-top:20px;
        width: 20%;
    }
    .icon img{
-     width: 20px;
+     width: 30px;
    }
    .icon-name{
        color: #0B0223;
@@ -527,12 +532,14 @@ color: rgba(255, 255, 255, 0.60);
 
 /* responsive footer section design start */
 footer{
-    height: 350px;
-    background-color: #0B0223;
-    padding: 50px 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
 }
 .footer-section{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 .footer-menu{
@@ -555,6 +562,7 @@ footer{
 }
 .copyright{
     margin-top: 40px;
+    font-size: 12px;
 }
 /* responsive footer section design end */
 }
@@ -607,6 +615,8 @@ footer{
     /* responsive header section design end */
     
     /* responsive main section design start */
+            /* responsive our gammer section design start .its optional part*/
+            /* responsive our gammer section design end */
     
             /* responsive video-games section design start/it's a bonus part */
             .online-video-games{
@@ -672,19 +682,18 @@ footer{
             /* responsive careers section design end */
     
             /* responsive games icon section design start.*/
-            .games-icon-section{
-                height: 270px;
-           }
-
            
            .games-icon{
                width: 100%;
            }
            .icon-image{
                gap: 10px;
-               margin-top:10px;
            }
-
+           .icon-name{
+               color: #0B0223;
+               font-size:16px;
+               font-weight: 600;
+           }
           
             /* responsive games icon section design end */
     /* responsive main section design end */
