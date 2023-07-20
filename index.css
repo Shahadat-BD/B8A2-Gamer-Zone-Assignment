@@ -492,9 +492,9 @@ color: rgba(255, 255, 255, 0.60);
 /* responsive main section design start */
         /* responsive our gammer section design start .its optional part*/
           .gammer-section{
-            margin-top: 200px;
+            margin-top: 60px;
             background: unset;
-            height: 100vh;
+            height: 600px;
           }
         .gammer{
             flex-direction: column;
@@ -518,7 +518,7 @@ color: rgba(255, 255, 255, 0.60);
            margin: 15px 0px;
         }
         .gammer-purpose{
-            margin-bottom: 20px;
+            margin-bottom: 70px;
             font-size: 18px;
         }
         /* responsive our gammer section design end */
